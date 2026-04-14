@@ -3,7 +3,8 @@ import './App.scss';
 import Navbar from '../Navbar/Navbar';
 import GameContainer from '../GameContainer/GameContainer';
 import { removeHash } from '../../data/helperFuncs';
-
+import { hiraganaVocab } from './data/hiraganaVocab.js JavaScript';
+import { katakanaVocab } from './data/katakanaVocab.js';
 const options = {};
 
 class App extends Component {
