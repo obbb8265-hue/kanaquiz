@@ -46,12 +46,15 @@ class App extends Component {
               gameState={this.state.gameState}
               handleStartGame={this.startGame}
               handleEndGame={this.endGame}
+              
+              // ← Add these two lines
+              hiraganaVocab={hiraganaVocab}
+              katakanaVocab={katakanaVocab}
             />
           </div>
         </div>
       </div>
     )
   }
-}
 
 export default App;
