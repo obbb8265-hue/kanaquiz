@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { kanaDictionary } from '../../data/kanaDictionary';
 import ChooseCharacters from '../ChooseCharacters/ChooseCharacters';
 import Game from '../Game/Game';
+import { hiraganaVocab } from '../../data/hiraganaVocab';
+import { katakanaVocab } from '../../data/katakanaVocab';
 
 class GameContainer extends Component {
   state = {
